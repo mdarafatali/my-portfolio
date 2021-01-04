@@ -54,6 +54,25 @@ section{
     background-position: right;
 }
 
-.single area{
-    box-shadow: 10px 10px grey;
+.single-area{
+    box-shadow: 10px 10px 40px grey;
+    height: 70%;
+}
+
+.exp-area{
+    background-image: url("Images/exp-bg.png");
+    background-repeat: no-repeat;
+}
+
+#l-broder{
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    
+}
+
+#web-broder{
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg, green, lightsalmon);
+    border-image-slice: 1;
 }
