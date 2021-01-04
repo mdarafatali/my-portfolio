@@ -53,3 +53,7 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+
+.single area{
+    box-shadow: 10px 10px grey;
+}
